@@ -12,7 +12,7 @@ public class Operacoes implements java.io.Serializable  {
     
     private static final String dbURL = "jdbc:mysql://localhost:3306/JavaStudies";
     private static final String username = "root";
-    private static final String password = "84404714";
+    private static final String password = "root";
     public static Connection conn;
 
     public static void conectar() throws SQLException, ClassNotFoundException {
