@@ -1,0 +1,9 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/home/george/Downloads/mysql-connector-java-8.0.25/mysql-connector-java-8.0.25.jar",
+        "/usr/lib/jvm/jdk-15/lib/jrt-fs.jar",
+        "/home/george/Downloads/Coisas tomcat/apache-tomcat-10.0.5/lib/tomcat-api.jar",
+        "/home/george/Downloads/Coisas tomcat/apache-tomcat-10.0.5/lib/servlet-api.jar"
+    ]
+}

@@ -1,0 +1,14 @@
+usuario_animados:
++-----------------+-------------+------+-----+---------+----------------+
+| Field           | Type        | Null | Key | Default | Extra          |
++-----------------+-------------+------+-----+---------+----------------+
+| id              | int         | NO   | PRI | NULL    | auto_increment |
+| nome            | varchar(45) | YES  |     | NULL    |                |
+| data_nascimento | date        | YES  |     | NULL    |                |
+| email           | varchar(60) | YES  | MUL | NULL    |                |
+| telefone        | varchar(15) | YES  |     | NULL    |                |
+| sexo            | char(1)     | YES  |     | NULL    |                |
+| cpf             | varchar(11) | YES  |     | NULL    |                |
+| senha           | varchar(35) | YES  |     | NULL    |                |
++-----------------+-------------+------+-----+---------+----------------+
+
