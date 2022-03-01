@@ -9,10 +9,10 @@ import java.sql.Statement;
 public class OqueEResultset {
 
     void bla() throws SQLException {
-        Connection con = null; //de alguma forma vc pega conexao com o banco
+        Connection con = null; //conectando no banco
         Statement stmt = con.createStatement();
-        //aqui voce recebe um objeto ResultSet com todos os elementos
-        //da tabela cliente:
+        //aqui voce recebe um objeto ResultSet com todos os elementos da tabela cliente:
+      
         ResultSet rs = stmt.executeQuery("SELECT * FROM Clientes");
         //para percorrer o resultset, faca:
         while (rs.next()) {
